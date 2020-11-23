@@ -1,0 +1,269 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: calc( 90vh - 1%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation-name: slide-bottom;
+    animation-duration: 1s;
+}
+
+/* Rede socias */
+
+.redes-info {
+    align-items: flex-start;
+}
+
+.logo {
+    width: 7rem;
+    height: 2rem;
+}
+
+.redes-social-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Informações principais */
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    animation-name: slide-top;
+    animation-duration: 1s;
+}
+
+.main-principal-content h1 {
+    font-size: 4.5rem;
+}
+
+.main-principal-content p {
+    word-break: break-word;
+    margin-top: .4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.img-profile {
+    width: 15rem;
+    height: 13rem;
+}
+
+/* Contato e proxima tela */
+
+.main-prev {
+    align-items: flex-end;
+}
+
+.info-contact {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.prox-arrow {
+    width: 3rem;
+    height: 2rem;
+    transition: all 1s ease;
+}
+
+/* Sobre mim */
+
+.container-about-us {
+    display: none;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation-name: slide-bottom;
+    animation-duration: 1s;
+}
+
+.about-us-title {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.about-us-title hr {
+    width: 20%;
+    height: .23rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #c4c4c4;
+    animation-name: width;
+    animation-duration: 1s;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.about-us-content p {
+    width: 65%;
+    word-break: break-word;
+    font-weight: 500;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.about-us-content .download-cv {
+    width: 10rem;
+    height: 2.3rem;
+    margin: 1rem auto;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.3rem;
+    box-shadow: 0px 0px 8px 2px #858585;
+}
+
+/* Skills */
+
+.main-skills {
+    display: none;
+    animation-name: slide-top;
+    animation-duration: 1s;
+}
+
+.main-skills h2 {
+    font-size: 2rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 3fr);
+    grid-gap: 1rem;
+    margin-top: 1.3rem;
+}
+
+.skills-figure {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.skills-figure figcaption {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: .8rem;
+}
+
+.skills-figure figcaption em {
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.skills-icon {
+    width: 3.3rem;
+    height: 3.3rem;
+    animation-name: width-img;
+    animation-duration: 1s;
+}
+
+.projects {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.projects a {
+    display: inline-block;
+    width: 8rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 3.2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: slide-top;
+    animation-duration: 1s;
+}
+
+/* Contato */
+
+.contact {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    height: 25rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 6px #888888;
+    text-align: center;
+}
+
+.contact-main-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contact-close {
+    width: 1rem;
+    height: 1rem;
+    float: right;
+    cursor: pointer;
+}
+
+.contact-content {
+    height: calc(100% - 3.4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.contact-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.contact-title {
+    font-size: 3rem ;
+    margin-left: 1rem;
+}

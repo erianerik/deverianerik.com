@@ -1,0 +1,32 @@
+body {
+    width: 95%;
+    margin: 1% auto;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration:none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding:0;
+}
+
+.display-none {
+    display: none;
+}
+
+
+.rotate-arrow {
+    transform: rotate(180deg);
+}
+
+.add-animation{
+    animation-name: contact-container;
+    animation-duration: 1s;
+    transition: all 2s ease;
+}    
