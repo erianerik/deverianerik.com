@@ -14,6 +14,13 @@
         flex-direction: column-reverse;
         text-align: center;
     }
+    .logo {
+        width: 5rem;
+        height: 2rem;
+    }
+    .info-contact {
+        font-size: 1rem;
+    }
     .img-profile {
         width: 8rem;
         height: 7rem;
@@ -28,10 +35,22 @@
         text-align: center;
         font-size: 1rem;
     }
-    .about-us-content p {
-        width: 80%;
-        font-size: 1rem;
+    .container-about-us {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
     }
+    .about-us-content {
+        margin-top: 0;
+    }
+    .about-us-content p {
+        width: 98%;
+        font-size: 1rem;
+        line-height: 1.7rem;
+        overflow-y: scroll;
+        max-height: 320px;
+    }
+    
     .skills-figure figcaption {
         font-size: 1rem;
     }
@@ -40,7 +59,8 @@
         flex-direction: column;
     }
     .redes-social-icon {
-        margin: .3rem 0;
+        margin: 0;
+        margin-top: .3rem ;
     }
     .contact {
         width: 45rem;
