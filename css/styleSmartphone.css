@@ -1,0 +1,52 @@
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    body {
+        font-size: 13px;
+    }
+    .main {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: .8rem;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 100%;   
+    }
+    .conteudo-principal {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .img-profile {
+        width: 8rem;
+        height: 7rem;
+    }
+    .main-principal-content h1 {
+        font-size: 2.45rem;
+    }
+    .main-principal-content__title {
+        font-size: 1rem;
+    }
+    .about-us-title {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .about-us-content p {
+        width: 80%;
+        font-size: 1rem;
+    }
+    .skills-figure figcaption {
+        font-size: 1rem;
+    }
+    .redes-social {
+        display: flex;
+        flex-direction: column;
+    }
+    .redes-social-icon {
+        margin: .3rem 0;
+    }
+    .contact {
+        width: 45rem;
+    }
+    .contact-title {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+}
