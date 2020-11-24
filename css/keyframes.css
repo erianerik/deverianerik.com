@@ -39,8 +39,7 @@
         height: 0;
     }
     100% {
-        width: 3.3rem;
-        height: 3.3rem;
+        width: 2.5rem;
     }
 }
 
@@ -52,7 +51,7 @@
         transform: translate(-50%, -30%);
     }
     100% {
-        top: 50%;
+        top: 45%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
