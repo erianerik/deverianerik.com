@@ -1,7 +1,11 @@
 .main {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: calc( 90vh - 1%);
+    grid-template-rows: 100%;
 }
 
 .container {
